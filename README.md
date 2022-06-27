@@ -11,4 +11,4 @@ Este programa calcula o hash de todos os tipos de arquivos mas atenção, arquiv
 
 - Executando: 
 ####
-    $ python3.10 checker.py -p <caminho> -t <tipo>
+    $ python3.10 src/checker.py -p <caminho> -t <tipo>

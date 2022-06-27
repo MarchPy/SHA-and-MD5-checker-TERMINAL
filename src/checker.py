@@ -1,7 +1,7 @@
 import hashlib
-import sys
+from sys import argv
 from os import system
-from tabnanny import check
+
 
 
 class Core:
@@ -42,7 +42,7 @@ class Core:
 
 
 if __name__ == "__main__":
-    params = sys.argv
+    params = argv
     if params != ["checker.py"]:
         if params == ["checker.py", "-h"]:
             print("""
